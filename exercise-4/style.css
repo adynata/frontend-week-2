@@ -9,5 +9,26 @@ html {
 
 label {
   width: 100%;
+  display: block;
 }
 
+/*input {
+    display: block;
+}*/
+
+form {
+    border: 500px;
+    text-align: center;
+    background-color: #FFB6C1;
+    padding: 15px;
+}
+
+input[type=text], input[type=password], input[type=textarea] {
+    border-radius: 10px;
+    border: solid;
+    border-color: grey;
+}
+
+input[type=text], input[type=password], input[select] {
+    font-size: 24px;
+}

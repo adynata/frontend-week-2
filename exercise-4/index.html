@@ -9,7 +9,7 @@
 
     <form action="http://requestb.in/1av83oz1" method="POST">
       <label for="name">name</label>
-      <input name="name" type="text" id="name" placeholder="your name here">
+      <input name="name" type="text" id="name" minlength=20 placeholder="your name here">
       <br/>
       <label for="email">email</label>
       <input name="email" type="text" id="email">
@@ -20,7 +20,7 @@
       <label for="password-confirm">password confirm</label>
       <input name="password-confirm" type="password" id="password-confirm">
       <br/>
-      <label for="favorite-animal">
+      <label for="favorite-animal">Select your favorite animal
         <select multiple name="favorite-animal" id="favorite-animal">
           <option value="" disable selected>Select your favorite animal</option>
           <option value="bunny">bunny</option>
@@ -32,11 +32,11 @@
       <br/>
       <label >
       </label for="intro">
-      <textarea name="introduction" id="intro">Please introduce yourself.
+      <textarea name="introduction" id="intro" maxlength=6>
       </textarea>
       <br/>
       <label>
-        <input name="favorite-color" type="radio" value="pink"/>pink
+        <input name="favorite-color" type="radio" value="pink" required=true/>pink
       </label>
       <br/>
       <label>
