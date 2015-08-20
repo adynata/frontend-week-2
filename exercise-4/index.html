@@ -9,7 +9,7 @@
 
     <form action="http://requestb.in/1av83oz1" method="POST">
       <label for="name">name</label>
-      <input name="name" type="text" id="name">
+      <input name="name" type="text" id="name" placeholder="your name here">
       <br/>
       <label for="email">email</label>
       <input name="email" type="text" id="email">
@@ -21,7 +21,7 @@
       <input name="password-confirm" type="password" id="password-confirm">
       <br/>
       <label for="favorite-animal">
-        <select name="favorite-animal" id="favorite-animal">
+        <select multiple name="favorite-animal" id="favorite-animal">
           <option value="" disable selected>Select your favorite animal</option>
           <option value="bunny">bunny</option>
           <option value="hedgehog">hedgehog</option>
@@ -81,7 +81,25 @@
       </label>
       <br>
 
-      <input type="submit" value="Submit the form">
+      <br>
+
+      <input type="range">
+      <br>
+      <label>search
+      <input type="search">
+      <br>
+      </label>
+
+      <input type="date">
+      <br>
+      <input type="color">
+      <br>
+      <input type="month">
+      <br>
+      <input type="datetime-local">
+      <br>
+      
+      <input type="image" src="http://icons.iconarchive.com/icons/wackypixel/dogs-n-puppies/128/Puppy-10-icon.png" alt="Submit Form" />
       <input type="reset" value="Reset the form">
 
 
